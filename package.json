@@ -1,6 +1,9 @@
 {
   "name": "@project-rd/client-services",
   "version": "8.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Type definitions and models for Sunbird platform clients",
   "main": "dist/index.js",
   "module": "src/index.ts",
