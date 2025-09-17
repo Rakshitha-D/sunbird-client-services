@@ -1,4 +1,4 @@
-# @project-sunbird/client-services
+# @project-rd/client-services
 
 ## Table of Contents
 
@@ -84,7 +84,7 @@ The GitHub Actions workflow will automatically build and publish the new version
 The library is grouped into Modules and SubModules as shown below -
 
 ```
-@project-sunbird/client-services
+@project-rd/client-services
 ├── blocs
     │   └── group-addable
     ├── core
@@ -137,8 +137,8 @@ For instance,
 Their respective imports would be -
 
 ```
-import {CsModule} from "@project-sunbird/client-services";
-import {CsContentsGroupGenerator} from "@project-sunbird/client-services/services/content/utilities/content-group-generator";
+import {CsModule} from "@project-rd/client-services";
+import {CsContentsGroupGenerator} from "@project-rd/client-services/services/content/utilities/content-group-generator";
 ```
 
 ## Installation
@@ -146,7 +146,7 @@ import {CsContentsGroupGenerator} from "@project-sunbird/client-services/service
 To install the package
 
 ```
-npm i @project-sunbird/client-services@3.x.x
+npm i @project-rd/client-services@3.x.x
 ```
 
 The package requires the consumer to have rxjs@6.x.x installed as the only peerDependency

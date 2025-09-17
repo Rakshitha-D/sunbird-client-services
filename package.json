@@ -1,6 +1,6 @@
 {
-  "name": "@project-sunbird/client-services",
-  "version": "8.0.2",
+  "name": "@project-rd/client-services",
+  "version": "8.0.1",
   "description": "Type definitions and models for Sunbird platform clients",
   "main": "dist/index.js",
   "module": "src/index.ts",
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
+    "@types/node": "^14.18.0",
     "@types/node-fetch": "^2.6.3",
     "jest": "^25.5.4",
     "rxjs": "^6.6.7",
